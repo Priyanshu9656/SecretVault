@@ -1,0 +1,2 @@
+aws s3 sync . s3://dna-autodidact-production-bucket/repos/hu-sp-405f476f0-final-assignment-HuJavaBoilerplateCodeFinal-1728151855423/master/ --delete --exclude ./venv/\* --exclude ./env/\*
+echo Success
